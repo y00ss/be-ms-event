@@ -34,18 +34,22 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-rest</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.quarkiverse.jooq</groupId>
-            <artifactId>quarkus-jooq</artifactId>
-            <version>2.0.1</version>
-        </dependency>
+
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-rest-jackson</artifactId>
         </dependency>
+
+        <!-- Hibernate Reactive dependency -->
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-hibernate-orm-panache</artifactId>
+            <artifactId>quarkus-hibernate-reactive-panache</artifactId>
+        </dependency>
+
+        <!-- Reactive SQL client for PostgreSQL -->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-reactive-pg-client</artifactId>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
@@ -55,9 +59,10 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-arc</artifactId>
         </dependency>
+
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-hibernate-orm</artifactId>
+            <artifactId>quarkus-smallrye-openapi</artifactId>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>

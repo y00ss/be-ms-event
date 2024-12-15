@@ -1,4 +1,4 @@
-package org.toevent;
+package org.toevent.resource;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
